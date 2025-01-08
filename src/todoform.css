@@ -1,0 +1,32 @@
+.header{
+    background-color: skyblue;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    height: 30px;
+}
+
+.add-todo{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+#todo{
+ width: 20vw;
+ padding: 10px;
+ border: 1px solid gray;
+ border-radius: 10px;
+}
+
+#submit{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: yellowgreen;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}

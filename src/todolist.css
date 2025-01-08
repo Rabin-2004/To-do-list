@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+ul li span{
+    width: 300px;
+    overflow: auto;
+}
+
+ul li button{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
